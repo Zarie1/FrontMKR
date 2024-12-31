@@ -6,6 +6,6 @@ export function ReadPost() {
     const { content } = location.state || {};
 
     return(<>
-        <h1>{content}</h1>
+        <h3>{content}</h3>
     </>)
 }
